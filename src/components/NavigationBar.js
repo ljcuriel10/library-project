@@ -1,7 +1,7 @@
 import React from 'react';
 import {Nav, Navbar} from 'react-bootstrap'
 import { IconContext } from 'react-icons';
-import {FaHome} from 'react-icons/fa'
+import {FaHome, FaHiking, FaRegPaperPlane} from 'react-icons/fa'
 
 
 
@@ -17,10 +17,10 @@ const NavigationBar = () => (
                         <Nav.Link href='/'><FaHome/> Home </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link href='/about'>About</Nav.Link>
+                        <Nav.Link href='/about'><FaHiking /> About</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link href='/contact'>Contact</Nav.Link>
+                        <Nav.Link href='/contact'><FaRegPaperPlane /> Contact</Nav.Link>
                     </Nav.Item>
                 </Nav>
             </Navbar.Collapse>
