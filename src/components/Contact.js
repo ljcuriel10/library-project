@@ -1,5 +1,7 @@
 import React from 'react'
 
 export const Contact = () => (
-    <div>Contact</div>
+    <>
+        <h1>Contact</h1>
+    </>
   )
